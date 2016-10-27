@@ -60,5 +60,8 @@ If we want to pass TWO blocks to a function, or to save  block to a variable so 
 
 
 
-
+Blocks are unnamed little code chunks we can drop into other methods. Used all the time.
+Procs are identical to blocks but  can store them in variables, which lets to pass them into functions as explicit arguments
+and save them for later. Used explicitly sometimes.
+Lambdas are really full methods that just haven't been named. Used rarely.
 
